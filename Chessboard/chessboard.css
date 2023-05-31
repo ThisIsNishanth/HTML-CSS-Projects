@@ -1,0 +1,60 @@
+body {
+    margin-left: 220px;
+    margin-top: 25px;
+    margin-bottom: 2px;
+}
+
+
+#firstdiv div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    white-space: 0;
+    margin-right: -4px;
+}
+
+
+#firstdiv div:nth-of-type(2n-1) {
+    background-color: red;
+}
+
+#Sfirstdiv div:nth-of-type(2n) {
+    background-color: black;
+}
+
+
+section:nth-of-type(2n) div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    white-space: 0;
+    margin-right: -4px;
+    margin-top: -4px;
+}
+
+section:nth-of-type(2n) div:nth-of-type(2n-1) {
+    background-color: black;
+}
+
+section:nth-of-type(2n) div:nth-of-type(2n) {
+    background-color: red;
+}
+
+section:nth-of-type(2n-1) div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: -4px;
+}
+
+section:nth-of-type(2n-1) div:nth-of-type(2n) {
+    background-color: black;
+}
+
+section:nth-of-type(2n-1) div:nth-of-type(2n-1) {
+    background-color: red;
+}

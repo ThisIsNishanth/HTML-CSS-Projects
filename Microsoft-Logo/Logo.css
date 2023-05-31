@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+div {
+    width: 75px;
+    height: 75px;
+}
+
+.fir #first {
+    margin-top: 200px;
+    margin-left: 350px;
+    background-color: #fb4f1c;
+}
+
+.sec #second {
+    background-color: #7fbc00;
+    margin-left: 430px;
+    margin-top: -75px;
+}
+
+.thir #third {
+    background-color: #ffba01;
+    margin-left: 430px;
+    margin-top: 5px
+}
+
+.four #fourth {
+    background-color: #01a6f0;
+    margin-left: 350px;
+    margin-top: -75px;
+}
+
+p {
+    margin-top: -150px;
+    margin-left: 540px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: grey;
+}

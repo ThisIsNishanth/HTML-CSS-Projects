@@ -1,0 +1,83 @@
+body {
+    background-color: #e9edc9;
+    color: #d62828;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+a {
+    color: #003049;
+    text-decoration: none;
+}
+
+.search {
+    padding: 2px 4px;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: black;
+    border-style: solid;
+    font-weight: 500;
+}
+
+.search:hover {
+    color: azure;
+    background-color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    font-weight: 900;
+    background-color: bisque;
+    font-size: 15px;
+}
+
+.signup {
+    font-weight: 900;
+    background-color: bisque;
+    font-size: 15px;
+}
+
+.vote {
+    font-weight: 900;
+    background-color: #a3b18a;
+    color: black;
+    font-size: 15px;
+}
+
+.signup:hover {
+    color: #d62828;
+}
+
+.login:hover {
+    color: #d62828;
+}
+
+button:hover {
+    color: #d62828;
+}
+
+section a {
+    color: darkslategrey;
+}
+
+section a:hover {
+    color: darkmagenta;
+}
+
+footer a:hover {
+    color: darkmagenta;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+.gpt {
+    color: darkslategrey;
+}

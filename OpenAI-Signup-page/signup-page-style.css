@@ -1,0 +1,360 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Nunito';
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+}
+
+/* div {
+    height: 100px;
+    display: inline-block;
+} */
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    opacity: 90%;
+    margin-top: 155px;
+    margin-bottom: -55px;
+}
+
+input {
+    display: block;
+    margin-top: 90px;
+    width: 300px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    border: solid 1px #a3a3a3;
+    border-radius: 3px;
+    opacity: 85%;
+}
+
+#password {
+    margin-top: 15px;
+}
+
+.email-address a {
+    position: relative;
+    top: 15px;
+    left: 5px;
+    text-decoration: none;
+    color: #10a37f;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#submit {
+    margin-top: 45px;
+    width: 320px;
+    height: 50px;
+    background-color: #10a37f;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 16px;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+
+#submit:hover {
+    background-color: #0c8265;
+    cursor: pointer;
+}
+
+.sign-up {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+
+.sign a {
+    color: #10a37f;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.box {
+    display: flex;
+    margin-top: 35px;
+    position: relative;
+}
+
+.first-box {
+    box-sizing: border-box;
+    width: 135px;
+    border-top: 1px solid black;
+    position: relative;
+    top: 7px;
+    margin-right: 16px;
+}
+
+.second-box {
+    box-sizing: border-box;
+    width: 135px;
+    margin-left: 16px;
+    border-top: 1px solid black;
+    position: relative;
+    top: 7px;
+}
+
+.or {
+    font-size: 12px;
+    font-weight: 300;
+    position: relative;
+    top: 2px;
+}
+
+.microsoft {
+    margin-top: 25px;
+    width: 320px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: 1px #a3a3a3 solid;
+    border-radius: 3px;
+    padding: 4px 16px;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+
+.microsoft:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.microsoft-account img {
+    position: relative;
+    bottom: 25px;
+    right: 15px;
+}
+
+.microsoft-text {
+    position: relative;
+    bottom: 35px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.google {
+    margin-top: -5px;
+    width: 320px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: 1px #a3a3a3 solid;
+    border-radius: 3px;
+    padding: 4px 16px;
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+
+.google:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.google-account img {
+    position: relative;
+    bottom: 23px;
+    right: 55px;
+    height: 25px;
+    width: 25px;
+}
+
+.google-text {
+    position: relative;
+    bottom: 30px;
+    right: 35px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.foot span a {
+    color: #10a37f;
+    font-family: 'Nunito';
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.terms {
+    margin-right: 10px;
+}
+
+.privacy {
+    margin-left: 10px;
+}
+
+.middle {
+    border-right: 1px black solid;
+}
+
+body {
+    display: block !important
+}

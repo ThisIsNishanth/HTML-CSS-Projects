@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>openai-signup-page</title>
+    <link rel="stylesheet" href="signup-page-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="display:none">
+    <section class="main-content">
+        <div class="logo">
+            <img src="https://www.svgrepo.com/show/306500/openai.svg">
+        </div>
+        <div class="welcome-text">
+            <H1>Welcome back</H1>
+        </div>
+        <div class="email-address">
+            <form action="https://chat.openai.com/">
+                <input type="email" placeholder="Email address" id="email-id" name="email" required>
+                <input type="password" placeholder="Password" id="password" name="password" required>
+                <a
+                    href="https://auth0.openai.com/u/reset-password/request/Username-Password-Authentication?state=hKFo2SBRUEV5eW5NaUJWOWs0STBJRTE3MEN4Tk14UGNVZnY3YqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGxzbGpaX0tmMFJTeFc5b2F0a1QtVVdBSy1PRC1BM2hHo2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc">Forgot
+                    password?</a>
+        </div>
+        <div class="submit-button">
+            <form action="https://chat.openai.com/">
+                <button id="submit">Continue</button>
+            </form>
+        </div>
+        <div class="sign-up">
+            <p>Don't have an account? <span class="sign"><a
+                        href="https://auth0.openai.com/u/signup/identifier?state=hKFo2SBPWDZObUxkTHdxU2tCSWVyUXg5MXdRQVh1NHdrQXRoUaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEg4V2t5bnk4aVZuRHRCbjBPc2Y5VEljWkpHak1yelg1o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc">
+                        Sign up </a></span></p>
+        </div>
+        <div class="box">
+            <div class="first-box">
+            </div>
+            <span class="or">OR</span>
+            <div class="second-box"></div>
+        </div>
+        <div class="microsoft-account">
+            <form
+                action="https://login.live.com/oauth20_authorize.srf?client_id=7de44aed-c069-4216-a99c-45957f6c4f17&scope=openid+profile+email+https%3a%2f%2fgraph.microsoft.com%2fUser.Read+https%3a%2f%2fgraph.microsoft.com%2fUser.Read&redirect_uri=https%3a%2f%2fauth0.openai.com%2flogin%2fcallback&response_type=code&state=SlOfUyUbI5R6y_s4F5-FCqCinXFc2EBq&prompt=login&uaid=78812baa7db141b5811332c99daa857e&msproxy=1&issuer=mso&tenant=consumers&ui_locales=en-US&epct=PAQABAAEAAAD--DLA3VO7QrddgJg7Wevr1KY7WGSemE4iyMLhqCSuGPm3g1OHTbnSu_YTBvbRWDcUk59HVMLCmSKIhxEZMBTSbWludsyyHczxemHt3snfavWxkymxeT2uZEnGSpJ4naUkqwJXNbcxBoIEumyDrMJlQ_xkYzKosr74sCsnmsgVbi738AVFxy9VQH1sV3asOFk7LL7ck4-YZmO3ulX_4DJHTugp7e0mToffyQQUeZL2DyAA&jshs=0#">
+                <button class="microsoft"> <img src="https://www.svgrepo.com/show/349454/microsoft.svg"><span
+                        class="microsoft-text">Continue with Microsoft Account</span> </button>
+            </form>
+        </div>
+        <div class="google-account">
+            <form
+                action="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?login_hint&prompt=login&response_type=code&redirect_uri=https%3A%2F%2Fauth0.openai.com%2Flogin%2Fcallback&scope=email%20profile&state=gG2wv35aFEAfsCUMiDovRKjUetX7gWoa&client_id=799222349882-ne3i0s9jdm5s0p7ll2d7tlsi1vc1halt.apps.googleusercontent.com&service=lso&o2v=1&flowName=GeneralOAuthFlow">
+                <button class="google"> <img src="https://www.svgrepo.com/show/475656/google-color.svg"><span
+                        class="google-text">Continue with Google</span> </button>
+            </form>
+        </div>
+    </section>
+    <footer class="foot">
+        <span class="terms"><a href="https://openai.com/policies/terms-of-use">Terms of use</a></span>
+        <div class="middle"></div>
+        <span class="privacy"><a href="https://openai.com/policies/privacy-policy">Privacy policy</a></span>
+    </footer>
+</body>
+
+</html>
