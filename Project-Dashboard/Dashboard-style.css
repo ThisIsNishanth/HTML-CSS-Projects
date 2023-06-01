@@ -24,6 +24,7 @@ body {
 .header .heading {
     position: relative;
     bottom: 35px;
+    font-size: 25px;
     left: 25px;
     font-weight: bold;
     color: white;
