@@ -236,6 +236,7 @@ body {
     position: relative;
     left: -40px;
     color: red;
+    opacity: 75%;
     font-weight: 500;
 }
 
@@ -279,6 +280,7 @@ body {
     position: relative;
     left: -40px;
     color: purple;
+    opacity: 75%;
     font-weight: 500;
 }
 
@@ -406,6 +408,7 @@ body {
 .project-details .row-seven .priority{
     position: relative;
     color: blue;
+    opacity: 75%;
     font-weight: 500;
     left: 10px;
 }
@@ -448,6 +451,7 @@ body {
 .project-details .row-eight .priority{
     position: relative;
     color: blue;
+    opacity: 75%;
     font-weight: 500;
     left: 10px;
 }
