@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.title {
+    width: 100px;
+}
+
+.title h2 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-top: 35px;
+    margin-left: 95px;
+    font-size: 30px;
+    width: 100px;
+}
+
+.navbar {
+    margin-left: 35%;
+    margin-top: -60px;
+}
+
+.navbar li a {
+    font-size: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+}
+
+.login-link {
+    width: 100px;
+    position: relative;
+    left: 80%;
+    bottom: 45px;
+}
+
+.login-link span a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.login-link span a:hover {
+    color: #0d6efd;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.get-started {
+    position: relative;
+    left: 85%;
+    bottom: 80px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.get-started button {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.get-started a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.main-copy {
+    width: 1000px;
+    margin-left: 15%;
+    margin-top: -30px;
+
+}
+
+.main-copy .headline {
+    font-size: 85px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bolder;
+}
+
+.main-copy .headline .main {
+    margin-left: 5%;
+    position: relative;
+    bottom: -20px;
+    background: -webkit-linear-gradient(white, #0d6efd);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-copy-two {
+    width: 640px;
+    margin-left: 22%;
+    margin-top: 5px;
+}
+
+.main-copy-two .sub-headline {
+    font-size: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: medium;
+}
+
+.main-copy-two .sub-headline .main{
+    position: relative;
+    left: 85px;
+    letter-spacing: 1px;
+}
+
+.main-copy-two .sub-headline .sub-main{
+    position: relative;
+    left: 165px;
+    letter-spacing: 1px;
+}
+
+.start-for-free{
+    position: relative;
+    margin-left: 43%;
+    top: 70px;
+}
+
+.start-for-free button{
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.start-for-free button:hover{
+    background-color: #ced4da;
+    border-color: #ced4da;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.start-for-free a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
