@@ -1,0 +1,14 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgreen;
+    height: 1000px;
+}
+
+
+.container{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px black;
+    position: relative;
+    top: 125px;
+
+}
