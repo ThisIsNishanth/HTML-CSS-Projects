@@ -1,0 +1,11 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    background-color: #fefae0;
+}
+
+.container{
+    margin-top: -50px;
+}
